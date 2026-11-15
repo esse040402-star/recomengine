@@ -6,6 +6,8 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+from normalization import normalize
+
 import httpx
 from bs4 import BeautifulSoup
 from fastapi import FastAPI, HTTPException, Query
@@ -239,4 +241,45 @@ def detail(appid: int):
                     'notes': ['장르·카테고리·사용자 태그는 별도 분류입니다.',
                     '사양은 Steam 원문입니다. 고사양/저사양 등급을 임의로 만들지 않습니다.',
                     'IGDB 클리어 시간은 초 단위이며 모든 게임에 제공되지는 않습니다.']}
-    return cached(('detail', appid), load)
+    result = dict(cached(('detail', appid), load))
+    result['normalized'] = normalize(result)
+    return result
+
+# Shared original seven-question rules; no client-supplied weights are accepted.
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / '첫7문항'))
+from quick_survey.scoring import definition, calculate, VERSION as SURVEY_VERSION
+from quick_survey.steam import recommend
+from pydantic import BaseModel, Field
+
+class SurveyRequest(BaseModel):
+    track: str
+    version: str
+    answers: dict[str, list[str]]
+    appids: list[int] = Field(min_length=1, max_length=10)
+
+@app.get('/api/surveys/quick/{track}')
+def survey_definition(track: str):
+    try: return definition(track)
+    except ValueError as exc: raise HTTPException(422, str(exc))
+
+@app.post('/api/surveys/quick/recommend')
+def survey_recommendation(payload: SurveyRequest):
+    if payload.track not in ('gamer','nongamer') or payload.version != SURVEY_VERSION:
+        raise HTTPException(422, '설문 유형 또는 버전을 확인해주세요.')
+    try: result=calculate(payload.track,payload.answers)
+    except (ValueError, TypeError, KeyError) as exc:
+        raise HTTPException(422, '질문별 선택지와 개수를 확인해주세요.') from exc
+    rows=[]; updates={}; failures=[]
+    for appid in dict.fromkeys(payload.appids):
+        try:
+            data=detail(appid)
+        except HTTPException as exc:
+            failures.append({'appid':appid,'status':exc.status_code});continue
+        gid=str(appid)
+        rows.append({'id':gid,'app':appid})
+        updates[gid]={'normalized':data['normalized']}
+    result['recommendation']=recommend(result['weights'],result['constraints'],rows,updates)
+    result['fetch_failures']=failures
+    result['scope']='요청한 AppID 후보 내 비교이며 Steam 전체 게임 추천이 아닙니다.'
+    return result

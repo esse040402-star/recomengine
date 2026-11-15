@@ -1,0 +1,276 @@
+{
+  "note": "Render에서 받은 두 게임의 실제 응답을 로컬 통합 코드로 비교. 전체 게임 품질 검증 아님.",
+  "answers": {
+    "q1": [
+      "0"
+    ],
+    "q2": [
+      "3"
+    ],
+    "q3": [
+      "2",
+      "3"
+    ],
+    "q4": [
+      "0"
+    ],
+    "q5": [
+      "2"
+    ],
+    "q6": [
+      "5"
+    ],
+    "q7": [
+      "0"
+    ]
+  },
+  "weights": {
+    "category:single_player": 10,
+    "genre:adventure": 5,
+    "tag:open_world": 10,
+    "tag:realistic": 5,
+    "tag:story_rich": 10
+  },
+  "summary": {
+    "axes": [
+      50,
+      50,
+      95,
+      95,
+      75,
+      10
+    ],
+    "coverage": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "top": [
+      2,
+      3
+    ],
+    "title": "새로운 길을 찾는 탐험가",
+    "prefs": {
+      "avoid": [],
+      "platforms": [
+        "pc"
+      ],
+      "purpose": "새로운 발견",
+      "social": "solo",
+      "visual": "realistic"
+    },
+    "evidence": [
+      {
+        "stage": "quick",
+        "field": "platform",
+        "question": "주력 플레이 플랫폼",
+        "answer": "PC (Steam / Epic Games 등)",
+        "axes": []
+      },
+      {
+        "stage": "quick",
+        "field": "session",
+        "question": "플레이 호흡 및 세션 구조",
+        "answer": "\"세션 길이 상관없음 / 상황 따라 다 좋아함\"",
+        "axes": []
+      },
+      {
+        "stage": "quick",
+        "field": "purpose",
+        "question": "핵심 재미 드라이버",
+        "answer": "[서사/몰입] 스토리, 세계관, 연출, 캐릭터 중심 · [탐험/자유도] 오픈월드, 수집, 다회차 요소, 높은 자유도",
+        "axes": [
+          2,
+          3
+        ]
+      },
+      {
+        "stage": "quick",
+        "field": "social",
+        "question": "멀티플레이 및 스트레스 수용도",
+        "answer": "순수 싱글 플레이 (Solo Only) — 타인의 개입 없이 혼자 몰입",
+        "axes": [
+          4
+        ]
+      },
+      {
+        "stage": "quick",
+        "field": "mechanics",
+        "question": "메카닉 요구도 및 조작 방식",
+        "answer": "조작 방식 무관",
+        "axes": []
+      },
+      {
+        "stage": "quick",
+        "field": "avoid",
+        "question": "이탈 요인 (Anti-Match Trigger / 복수 선택)",
+        "answer": "🟢 특별히 피하는 요소 없음",
+        "axes": []
+      },
+      {
+        "stage": "quick",
+        "field": "visual",
+        "question": "비주얼 아트 스타일",
+        "answer": "고퀄리티 실사 3D Graphics",
+        "axes": []
+      }
+    ],
+    "stage": "quick",
+    "count": 7
+  },
+  "constraints": {
+    "platforms": [
+      "pc"
+    ],
+    "avoid": [],
+    "budget": null,
+    "hardware_spec": null,
+    "low_spec_preferred": false
+  },
+  "rules_version": "quick-1.1.0",
+  "recommendation": {
+    "status": "matched",
+    "games": [
+      {
+        "app_id": 1174180,
+        "game_id": "1174180",
+        "title": "Red Dead Redemption 2",
+        "score": 40,
+        "matched_weights": {
+          "category:single_player": 10,
+          "genre:adventure": 5,
+          "tag:open_world": 10,
+          "tag:realistic": 5,
+          "tag:story_rich": 10
+        },
+        "match_evidence": {
+          "category:single_player": [
+            {
+              "source": "steam.categories",
+              "value": "싱글 플레이어"
+            },
+            {
+              "source": "steam.store_tags",
+              "value": "Singleplayer"
+            },
+            {
+              "source": "igdb.game_modes",
+              "value": "Single player"
+            }
+          ],
+          "genre:adventure": [
+            {
+              "source": "steam.genres",
+              "value": "어드벤처"
+            },
+            {
+              "source": "steam.store_tags",
+              "value": "Adventure"
+            },
+            {
+              "source": "igdb.genres",
+              "value": "Adventure"
+            }
+          ],
+          "tag:open_world": [
+            {
+              "source": "steam.store_tags",
+              "value": "Open World"
+            },
+            {
+              "source": "igdb.themes",
+              "value": "Open world"
+            }
+          ],
+          "tag:realistic": [
+            {
+              "source": "steam.store_tags",
+              "value": "Realistic"
+            },
+            {
+              "source": "igdb.keywords",
+              "value": "realistic"
+            }
+          ],
+          "tag:story_rich": [
+            {
+              "source": "steam.store_tags",
+              "value": "Story Rich"
+            }
+          ]
+        },
+        "unmatched_weights": {},
+        "price": {
+          "currency": "KRW",
+          "amount": 73000.0,
+          "source": "steam"
+        },
+        "detail_source": "steam_igdb_normalized",
+        "source_status": {
+          "steam": "ok",
+          "igdb": "ok"
+        }
+      },
+      {
+        "app_id": 413150,
+        "game_id": "413150",
+        "title": "Stardew Valley",
+        "score": 25,
+        "matched_weights": {
+          "category:single_player": 10,
+          "genre:adventure": 5,
+          "tag:open_world": 10
+        },
+        "match_evidence": {
+          "category:single_player": [
+            {
+              "source": "steam.categories",
+              "value": "싱글 플레이어"
+            },
+            {
+              "source": "steam.store_tags",
+              "value": "Singleplayer"
+            },
+            {
+              "source": "igdb.game_modes",
+              "value": "Single player"
+            }
+          ],
+          "genre:adventure": [
+            {
+              "source": "igdb.genres",
+              "value": "Adventure"
+            }
+          ],
+          "tag:open_world": [
+            {
+              "source": "steam.store_tags",
+              "value": "Open World"
+            }
+          ]
+        },
+        "unmatched_weights": {
+          "tag:realistic": 5,
+          "tag:story_rich": 10
+        },
+        "price": {
+          "currency": "KRW",
+          "amount": 16000.0,
+          "source": "steam"
+        },
+        "detail_source": "steam_igdb_normalized",
+        "source_status": {
+          "steam": "ok",
+          "igdb": "ok"
+        }
+      }
+    ],
+    "fetched_candidates": 2,
+    "candidate_pool_size": 2,
+    "unsupported_weights": [],
+    "warnings": []
+  }
+}

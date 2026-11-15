@@ -15,17 +15,26 @@ def fetch(base, game_id):
         raise ValueError('게임 상세 응답 형식 오류')
     return {k:d[k] for k in ('os','minimum','price','checkedAt','genres','categoryIds') if k in d}
 
+def fetch_normalized(base, appid):
+    url=base.rstrip('/')+'/api/games/'+str(int(appid))
+    with urlopen(url,timeout=90) as response:
+        data=json.load(response)
+    n=data.get('normalized') or {}
+    if n.get('schema_version')!='game-facts-1.0.0' or n.get('appid')!=int(appid):
+        raise ValueError('통합 API 배포 또는 응답 AppID를 확인해주세요.')
+    return {'normalized':n}
+
 def main():
     p=argparse.ArgumentParser()
-    p.add_argument('--base',default='http://127.0.0.1:8000')
+    p.add_argument('--base',default='https://recomengine-game-api.onrender.com')
     p.add_argument('games',nargs='*',help='프로젝트 게임 ID. 생략 시 전체.')
     args=p.parse_args()
-    ids=[g['id'] for g in json.loads(SEED.read_text(encoding='utf-8'))]
+    rows=json.loads(SEED.read_text(encoding='utf-8')); ids=[g['id'] for g in rows]; apps={g['id']:g['app'] for g in rows}
     if set(args.games)-set(ids):p.error('알 수 없는 게임 ID')
     cache=json.loads(CACHE.read_text(encoding='utf-8')) if CACHE.exists() else {}
     failed=ok=0
     for game in args.games or ids:
-        try:cache[game]=fetch(args.base,game)
+        try:cache[game]=fetch_normalized(args.base,apps[game])
         except (OSError,URLError,ValueError,KeyError) as exc:
             failed+=1;print(game,'갱신 실패:',exc)
             if isinstance(exc,URLError) and isinstance(exc.reason,ConnectionRefusedError):break

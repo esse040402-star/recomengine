@@ -1,9 +1,9 @@
 {
   "survey_id": "quick_nongamer",
-  "version": "quick-1.0.0",
+  "version": "quick-1.1.0",
   "answers": {
     "q1": [
-      "0"
+      "1"
     ],
     "q2": [
       "0"

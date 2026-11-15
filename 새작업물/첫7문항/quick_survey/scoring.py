@@ -3,7 +3,7 @@ import json
 import math
 from pathlib import Path
 
-VERSION = 'quick-1.0.0'
+VERSION = 'quick-1.1.0'
 QUESTIONS = json.loads((Path(__file__).parent / 'data/questions.json').read_text(encoding='utf-8'))
 TITLES = ['손맛을 즐기는 도전자','한 수 앞을 보는 전략가','새로운 길을 찾는 탐험가','이야기에 빠지는 감상가','여유를 만드는 힐링 플레이어','승부를 즐기는 챌린저']
 # Explicit provisional scoring, to be reviewed by the project team.
@@ -64,7 +64,7 @@ def calculate(track, answers):
             if p.get('lowSpec'): add('hardware:low_spec',10)
             if p.get('session'): add('session:'+p['session'],5)
             if q['field']=='mechanics':
-                rules=({'0':{'tag:action':5},'1':{'tag:turn_based':5}} if track=='gamer' else {'0':{'preference:free_movement':5},'1':{'tag:point_and_click':5}})
+                rules=({'0':{'genre:action':5},'1':{'tag:turn_based':5}} if track=='gamer' else {'0':{'preference:free_movement':5},'1':{'tag:point_and_click':5}})
                 for code,value in rules.get(o['id'],{}).items(): add(code,value)
     axes=[math.floor(sums[i]/counts[i]+.5) if counts[i] else 50 for i in range(6)]
     top=sorted(range(6),key=lambda i:-axes[i])[:2]

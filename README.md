@@ -9,6 +9,8 @@
 
 - [개인페이지 — 통합 코드·테스트](새작업물/개인페이지/README.md)
 
+- [Steam·IGDB 통합 및 설문 가중치](새작업물/API통합_설문가중치/)
+
 ## 배포 주소
 
 - [게임정보 API 테스트 화면](https://recomengine-game-api.onrender.com/)

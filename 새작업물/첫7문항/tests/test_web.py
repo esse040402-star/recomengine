@@ -9,7 +9,7 @@ class WebTest(unittest.TestCase):
    try:
     for track in ['gamer','nongamer']:
      with urllib.request.urlopen(base+'/api/quick-survey/definitions/'+track) as r:definition=json.load(r)
-     payload={'survey_id':definition['survey_id'],'version':definition['version'],'submission_id':str(uuid4()),'answers':{q['id']:['0'] for q in definition['questions']}}
+     payload={'survey_id':definition['survey_id'],'version':definition['version'],'submission_id':str(uuid4()),'answers':{q['id']:[q['options'][0]['id']] for q in definition['questions']}}
      def post():
       req=urllib.request.Request(base+'/api/quick-survey/submissions',json.dumps(payload).encode(),{'Content-Type':'application/json','Origin':base})
       with urllib.request.urlopen(req) as r:return json.load(r)
