@@ -15,13 +15,7 @@ REVIEW_TEXT_MAX = 600  # 리뷰 카드에 보여줄 최대 글자 수 (넘으면
 
 async def fetch_reviews(app_id: int, num: int = 30, language: str = "all") -> list[dict]:
     """공개 리뷰 API (키 불필요). [{'text': str, 'voted_up': bool}]"""
-    async with httpx.AsyncClient(timeout=15) as client:
-        r = await client.get(
-            f"{STORE}/appreviews/{app_id}",
-            params={"json": 1, "filter": "all", "language": language, "num_per_page": num, "purchase_type": "all"},
-        )
-        r.raise_for_status()
-        data = r.json()
+    data = await _fetch_review_data(app_id, num=num, language=language)
     return [
         {"text": x.get("review", ""), "voted_up": bool(x.get("voted_up"))}
         for x in data.get("reviews", [])
@@ -133,12 +127,30 @@ async def fetch_news(app_id: int, count: int = 3) -> list[dict]:
     ]
 
 
+async def _fetch_review_data(app_id: int, *, num: int = 30, language: str = "all",
+                             sentiment: str = "all", sort: str = "helpful",
+                             days: str = "all", cursor: str = "*") -> dict:
+    """새 Steam 리뷰 API를 기존 서비스 반환 형식으로 변환합니다. 공개 조회는 키 불필요."""
+    payload = {
+        "appid": app_id, "filter": {"recent": 1, "updated": 2, "funny": 3}.get(sort, 0),
+        "languages": [language], "review_type": {"all": 0, "positive": 1, "negative": 2}[sentiment],
+        "purchase_type": 1, "num_per_page": max(1, min(num, 100)), "cursor": cursor or "*",
+    }
+    if payload["filter"] == 0:
+        payload["day_range"] = 0 if days == "all" else min(int(days), 365)
+    raw = await _get_json(f"{API}/IUserReviewsService/GetAppReviews/v1/",
+                          {"input_json": json.dumps(payload)}, timeout=20)
+    data = raw.get("response") if isinstance(raw, dict) else None
+    if not isinstance(data, dict) or not any(k in data for k in ("reviews", "query_summary", "total_matching")):
+        raise ValueError("Steam 리뷰 응답 형식 오류: 리뷰 없음과 구분하여 처리해야 합니다.")
+    if "reviews" in data and not isinstance(data["reviews"], list):
+        raise ValueError("Steam 리뷰 목록 형식 오류")
+    return data
+
+
 async def fetch_review_summary(app_id: int) -> dict:
     """전체 언어 리뷰 집계. {'positive', 'negative', 'total', 'description'}"""
-    data = await _get_json(
-        f"{STORE}/appreviews/{app_id}",
-        {"json": 1, "num_per_page": 0, "language": "all", "purchase_type": "all"},
-    )
+    data = await _fetch_review_data(app_id, num=1)
     q = data.get("query_summary") or {}
     return {
         "positive": int(q.get("total_positive") or 0),
@@ -152,13 +164,8 @@ async def fetch_review_page(app_id: int, sentiment: str = "all", language: str =
                             days: str = "all", cursor: str = "*", num: int = 12) -> dict:
     """리뷰 한 페이지. {'items': [...], 'cursor': 다음 페이지 표식 또는 None}
     스팀의 기간(day_range) 조건은 '도움순'에서만 먹기 때문에, 최신순의 기간 필터는 여기서 직접 거른다."""
-    params = {
-        "json": 1, "filter": "recent" if sort == "recent" else "all", "language": language,
-        "review_type": sentiment, "purchase_type": "all", "num_per_page": num, "cursor": cursor or "*",
-    }
-    if days != "all" and sort != "recent":
-        params["day_range"] = int(days)
-    data = await _get_json(f"{STORE}/appreviews/{app_id}", params, timeout=20)
+    data = await _fetch_review_data(app_id, num=num, language=language,
+                                    sentiment=sentiment, sort=sort, days=days, cursor=cursor)
     min_created = datetime.now(timezone.utc).timestamp() - int(days) * 86400 if days != "all" and sort == "recent" else 0
     items = []
     for x in data.get("reviews") or []:

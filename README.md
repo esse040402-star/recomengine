@@ -11,6 +11,9 @@
 
 - [Steam·IGDB 통합 및 설문 가중치](새작업물/API통합_설문가중치/)
 
+- [Steam 리뷰 API 수정 · 팀원 적용 안내](새작업물/스팀리뷰_API수정/)
+
+
 ## 배포 주소
 
 - [게임정보 API 테스트 화면](https://recomengine-game-api.onrender.com/)

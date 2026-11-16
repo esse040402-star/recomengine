@@ -1,5 +1,6 @@
 """스팀 랭킹·뉴스·리뷰·상세 API 통합 테스트 (가짜 스팀 응답, 네트워크 없음).  pytest 로 실행"""
 import asyncio
+import json
 import os
 
 os.environ["USE_MOCK_DB"] = "true"
@@ -204,16 +205,16 @@ def test_review_page_converts_and_filters_by_days(monkeypatch):
     ], "cursor": "C2"}
 
     async def fake_get(url, params, timeout=15):
-        fake_get.params = params
-        return raw
+        fake_get.params = json.loads(params["input_json"])
+        return {"response": raw}
 
     monkeypatch.setattr(steam, "_get_json", fake_get)
     page = asyncio.run(steam.fetch_review_page(1, days="30", sort="recent"))
     assert [i["id"] for i in page["items"]] == ["1"] and page["cursor"] == "C2"  # 최신순은 기간을 직접 거른다
-    assert "day_range" not in fake_get.params and fake_get.params["filter"] == "recent"
+    assert "day_range" not in fake_get.params and fake_get.params["filter"] == 1
     item = page["items"][0]
     assert item["hours"] == 1.5 and item["helpful"] == 4 and item["url"].endswith("/profiles/7656/recommended/1/")
     helpful = asyncio.run(steam.fetch_review_page(1, days="30", sort="helpful"))
-    assert fake_get.params["day_range"] == 30 and fake_get.params["filter"] == "all"
+    assert fake_get.params["day_range"] == 30 and fake_get.params["filter"] == 0
     assert [i["truncated"] for i in helpful["items"]] == [False, True]  # 도움순은 스팀이 기간을 처리하므로 직접 거르지 않는다
     assert len(helpful["items"][1]["text"]) == steam.REVIEW_TEXT_MAX
