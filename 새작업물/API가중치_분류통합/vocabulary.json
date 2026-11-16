@@ -1,0 +1,5151 @@
+{
+  "schema_version": "weight-vocabulary-2.0.0",
+  "checked_on": "2026-11-17",
+  "coverage": {
+    "steam_public_tag_snapshot": 429,
+    "steam_source": "https://store.steampowered.com/tag/browse/",
+    "steam_all_possible_tags_claim": false,
+    "igdb_seed_counts": {
+      "genres": 23,
+      "themes": 22,
+      "game_modes": 6,
+      "player_perspectives": 7
+    },
+    "igdb_authenticated_catalog_verified": false,
+    "notes": "Steam 공개 인기 태그 스냅샷과 IGDB 기준 분류 seed. 전체 IGDB keywords 실시간 목록은 별도 동기화 후 coverage로 확인."
+  },
+  "entries": [
+    {
+      "code": "genre:action",
+      "label_ko": "액션",
+      "label_en": "Action",
+      "aliases": [
+        "Action",
+        "액션"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "genre:adventure",
+      "label_ko": "어드벤처",
+      "label_en": "Adventure",
+      "aliases": [
+        "Adventure",
+        "어드벤처"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "genre:rpg",
+      "label_ko": "롤 플레잉",
+      "label_en": "RPG",
+      "aliases": [
+        "RPG",
+        "Role-playing (RPG)",
+        "Role Playing",
+        "롤 플레잉"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "genre:strategy",
+      "label_ko": "전략",
+      "label_en": "Strategy",
+      "aliases": [
+        "Strategy",
+        "전략"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "genre:simulation",
+      "label_ko": "시뮬레이션",
+      "label_en": "Simulator",
+      "aliases": [
+        "Simulator",
+        "Simulation",
+        "시뮬레이션"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "genre:shooter",
+      "label_ko": "슈팅",
+      "label_en": "Shooter",
+      "aliases": [
+        "Shooter",
+        "슈팅"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:puzzle",
+      "label_ko": "퍼즐",
+      "label_en": "Puzzle",
+      "aliases": [
+        "Puzzle",
+        "퍼즐"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:story_rich",
+      "label_ko": "스토리 풍부",
+      "label_en": "Story Rich",
+      "aliases": [
+        "Story Rich",
+        "스토리 풍부"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:open_world",
+      "label_ko": "오픈 월드",
+      "label_en": "Open World",
+      "aliases": [
+        "Open World",
+        "오픈 월드",
+        "오픈월드"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:building",
+      "label_ko": "건설",
+      "label_en": "Building",
+      "aliases": [
+        "Building",
+        "건설"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:realistic",
+      "label_ko": "현실적",
+      "label_en": "Realistic",
+      "aliases": [
+        "Realistic",
+        "현실적"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:anime",
+      "label_ko": "애니",
+      "label_en": "Anime",
+      "aliases": [
+        "Anime",
+        "애니"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:pixel_graphics",
+      "label_ko": "픽셀 그래픽",
+      "label_en": "Pixel Graphics",
+      "aliases": [
+        "Pixel Graphics",
+        "픽셀 그래픽"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:cute",
+      "label_ko": "귀여운",
+      "label_en": "Cute",
+      "aliases": [
+        "Cute",
+        "귀여운"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:turn_based",
+      "label_ko": "턴제",
+      "label_en": "Turn-Based",
+      "aliases": [
+        "Turn-Based",
+        "Turn based",
+        "턴제"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:point_and_click",
+      "label_ko": "포인트 앤 클릭",
+      "label_en": "Point-and-click",
+      "aliases": [
+        "Point-and-click",
+        "Point & Click",
+        "포인트 앤 클릭"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:difficult",
+      "label_ko": "어려운",
+      "label_en": "Difficult",
+      "aliases": [
+        "Difficult",
+        "어려운"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:grindy",
+      "label_ko": "노가다",
+      "label_en": "Grindy",
+      "aliases": [
+        "Grindy",
+        "노가다"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "category:single_player",
+      "label_ko": "싱글 플레이어",
+      "label_en": "Singleplayer",
+      "aliases": [
+        "Singleplayer",
+        "Single player",
+        "싱글 플레이어"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "category:co_op",
+      "label_ko": "협동",
+      "label_en": "Co-op",
+      "aliases": [
+        "Co-op",
+        "Co-operative",
+        "협동"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "category:multiplayer"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "category:multiplayer",
+      "label_ko": "멀티플레이어",
+      "label_en": "Multiplayer",
+      "aliases": [
+        "Multiplayer",
+        "Multi-player",
+        "멀티플레이어"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "category:pvp",
+      "label_ko": "플레이어 대전",
+      "label_en": "PvP",
+      "aliases": [
+        "PvP",
+        "플레이어 대전"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "perspective:first_person",
+      "label_ko": "1인칭",
+      "label_en": "First person",
+      "aliases": [
+        "First person",
+        "First-Person",
+        "1인칭"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "perspective:third_person",
+      "label_ko": "3인칭",
+      "label_en": "Third person",
+      "aliases": [
+        "Third person",
+        "Third-Person",
+        "3인칭"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:3d",
+      "label_ko": null,
+      "label_en": "3D",
+      "aliases": [
+        "3D"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:2d",
+      "label_ko": null,
+      "label_en": "2D",
+      "aliases": [
+        "2D"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:horror",
+      "label_ko": "공포",
+      "label_en": "Horror",
+      "aliases": [
+        "Horror",
+        "공포"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:gore",
+      "label_ko": "고어",
+      "label_en": "Gore",
+      "aliases": [
+        "Gore",
+        "고어"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:souls_like",
+      "label_ko": "소울라이크",
+      "label_en": "Souls-like",
+      "aliases": [
+        "Souls-like",
+        "소울라이크"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:roguelike",
+      "label_ko": "로그라이크",
+      "label_en": "Roguelike",
+      "aliases": [
+        "Roguelike",
+        "Rogue-like",
+        "로그라이크"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:relaxing",
+      "label_ko": "힐링",
+      "label_en": "Relaxing",
+      "aliases": [
+        "Relaxing",
+        "힐링"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:destruction",
+      "label_ko": "파괴",
+      "label_en": "Destruction",
+      "aliases": [
+        "Destruction",
+        "파괴"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:side_scroller",
+      "label_ko": "횡스크롤",
+      "label_en": "Side-scroller",
+      "aliases": [
+        "Side-scroller",
+        "Side Scroller",
+        "횡스크롤"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:character_customization",
+      "label_ko": "캐릭터 커스터마이즈",
+      "label_en": "Character Customization",
+      "aliases": [
+        "Character Customization",
+        "캐릭터 커스터마이즈"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:competitive",
+      "label_ko": "경쟁",
+      "label_en": "Competitive",
+      "aliases": [
+        "Competitive",
+        "경쟁"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:exploration",
+      "label_ko": "탐험",
+      "label_en": "Exploration",
+      "aliases": [
+        "Exploration",
+        "탐험"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:collectathon",
+      "label_ko": "수집",
+      "label_en": "Collectathon",
+      "aliases": [
+        "Collectathon",
+        "수집"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:multiple_endings",
+      "label_ko": "여러 엔딩",
+      "label_en": "Multiple Endings",
+      "aliases": [
+        "Multiple Endings",
+        "여러 엔딩"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:fantasy",
+      "label_ko": "판타지",
+      "label_en": "Fantasy",
+      "aliases": [
+        "Fantasy",
+        "판타지"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:sci_fi",
+      "label_ko": "공상과학",
+      "label_en": "Science fiction",
+      "aliases": [
+        "Science fiction",
+        "Sci-fi",
+        "공상과학"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:cyberpunk",
+      "label_ko": "사이버펑크",
+      "label_en": "Cyberpunk",
+      "aliases": [
+        "Cyberpunk",
+        "사이버펑크"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:post_apocalyptic",
+      "label_ko": "포스트아포칼립스",
+      "label_en": "Post-apocalyptic",
+      "aliases": [
+        "Post-apocalyptic",
+        "포스트아포칼립스"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:dark_fantasy",
+      "label_ko": "다크 판타지",
+      "label_en": "Dark Fantasy",
+      "aliases": [
+        "Dark Fantasy",
+        "다크 판타지"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:mystery",
+      "label_ko": "미스터리",
+      "label_en": "Mystery",
+      "aliases": [
+        "Mystery",
+        "미스터리"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:historical",
+      "label_ko": "역사",
+      "label_en": "Historical",
+      "aliases": [
+        "Historical",
+        "역사"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:military",
+      "label_ko": "군사",
+      "label_en": "Military",
+      "aliases": [
+        "Military",
+        "군사"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:cinematic",
+      "label_ko": "영화 같은",
+      "label_en": "Cinematic",
+      "aliases": [
+        "Cinematic",
+        "영화 같은"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:choices_matter",
+      "label_ko": "선택의 중요성",
+      "label_en": "Choices Matter",
+      "aliases": [
+        "Choices Matter",
+        "선택의 중요성"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:visual_novel",
+      "label_ko": "비주얼 노벨",
+      "label_en": "Visual Novel",
+      "aliases": [
+        "Visual Novel",
+        "비주얼 노벨"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:idle",
+      "label_ko": "방치형",
+      "label_en": "Idle",
+      "aliases": [
+        "Idle",
+        "Idler",
+        "방치형"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:farming",
+      "label_ko": "농사",
+      "label_en": "Farming",
+      "aliases": [
+        "Farming",
+        "농사"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:hidden_object",
+      "label_ko": "숨은 그림 찾기",
+      "label_en": "Hidden Object",
+      "aliases": [
+        "Hidden Object",
+        "숨은 그림 찾기"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:word_game",
+      "label_ko": "단어 게임",
+      "label_en": "Word Game",
+      "aliases": [
+        "Word Game",
+        "단어 게임"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:casual",
+      "label_ko": "캐주얼",
+      "label_en": "Casual",
+      "aliases": [
+        "Casual",
+        "캐주얼"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:nature",
+      "label_ko": "자연",
+      "label_en": "Nature",
+      "aliases": [
+        "Nature",
+        "자연"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:space",
+      "label_ko": "우주",
+      "label_en": "Space",
+      "aliases": [
+        "Space",
+        "우주"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "perspective:top_down",
+      "label_ko": "탑다운",
+      "label_en": "Top-Down",
+      "aliases": [
+        "Top-Down",
+        "탑다운"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "genre:racing",
+      "label_ko": "레이싱",
+      "label_en": "Racing",
+      "aliases": [
+        "Racing",
+        "레이싱"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "genre:sports",
+      "label_ko": "스포츠",
+      "label_en": "Sport",
+      "aliases": [
+        "Sport",
+        "Sports",
+        "스포츠"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:indie",
+      "label_ko": "인디",
+      "label_en": "Indie",
+      "aliases": [
+        "Indie",
+        "인디"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:early_access",
+      "label_ko": "앞서 해보기",
+      "label_en": "Early Access",
+      "aliases": [
+        "Early Access",
+        "앞서 해보기"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:free_to_play",
+      "label_ko": "무료 플레이",
+      "label_en": "Free to Play",
+      "aliases": [
+        "Free to Play",
+        "Free-to-Play",
+        "무료 플레이"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:platformer",
+      "label_ko": "플랫포머",
+      "label_en": "Platform",
+      "aliases": [
+        "Platform",
+        "Platformer",
+        "플랫포머"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:music",
+      "label_ko": "음악",
+      "label_en": "Music",
+      "aliases": [
+        "Music",
+        "음악"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:rhythm",
+      "label_ko": "리듬",
+      "label_en": "Rhythm",
+      "aliases": [
+        "Rhythm",
+        "리듬"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:real_time_strategy",
+      "label_ko": "실시간 전략",
+      "label_en": "Real Time Strategy (RTS)",
+      "aliases": [
+        "Real Time Strategy (RTS)",
+        "RTS",
+        "실시간 전략"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:turn_based_strategy",
+      "label_ko": "턴제 전략",
+      "label_en": "Turn-based strategy (TBS)",
+      "aliases": [
+        "Turn-based strategy (TBS)",
+        "Turn-Based Strategy",
+        "턴제 전략"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "tag:turn_based",
+        "genre:strategy"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:turn_based_combat",
+      "label_ko": "턴제 전투",
+      "label_en": "Turn-Based Combat",
+      "aliases": [
+        "Turn-Based Combat",
+        "턴제 전투"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "tag:turn_based"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:turn_based_tactics",
+      "label_ko": "턴제 전술",
+      "label_en": "Turn-Based Tactics",
+      "aliases": [
+        "Turn-Based Tactics",
+        "턴제 전술"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "tag:turn_based",
+        "tag:tactical"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:fighting",
+      "label_ko": "격투",
+      "label_en": "Fighting",
+      "aliases": [
+        "Fighting",
+        "격투"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:tactical",
+      "label_ko": "전술",
+      "label_en": "Tactical",
+      "aliases": [
+        "Tactical",
+        "전술"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:quiz_trivia",
+      "label_ko": "퀴즈",
+      "label_en": "Quiz/Trivia",
+      "aliases": [
+        "Quiz/Trivia",
+        "Trivia",
+        "퀴즈"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:arcade",
+      "label_ko": "아케이드",
+      "label_en": "Arcade",
+      "aliases": [
+        "Arcade",
+        "아케이드"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:pinball",
+      "label_ko": "핀볼",
+      "label_en": "Pinball",
+      "aliases": [
+        "Pinball",
+        "핀볼"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:card_board_game",
+      "label_ko": null,
+      "label_en": "Card & Board Game",
+      "aliases": [
+        "Card & Board Game"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:card_game",
+      "label_ko": "카드 게임",
+      "label_en": "Card Game",
+      "aliases": [
+        "Card Game",
+        "카드 게임"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:board_game",
+      "label_ko": "보드 게임",
+      "label_en": "Board Game",
+      "aliases": [
+        "Board Game",
+        "보드 게임"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:moba",
+      "label_ko": null,
+      "label_en": "MOBA",
+      "aliases": [
+        "MOBA"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:hack_slash_beat_em_up",
+      "label_ko": null,
+      "label_en": "Hack and slash/Beat 'em up",
+      "aliases": [
+        "Hack and slash/Beat 'em up"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:hack_and_slash",
+      "label_ko": "핵 앤 슬래시",
+      "label_en": "Hack and Slash",
+      "aliases": [
+        "Hack and Slash",
+        "Hack-and-Slash",
+        "핵 앤 슬래시"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:beat_em_up",
+      "label_ko": "벨트스크롤 액션",
+      "label_en": "Beat 'em up",
+      "aliases": [
+        "Beat 'em up",
+        "Beat-em-up",
+        "벨트스크롤 액션"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:city_builder",
+      "label_ko": "도시 건설",
+      "label_en": "City Builder",
+      "aliases": [
+        "City Builder",
+        "도시 건설"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "tag:building"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:farming_sim",
+      "label_ko": "농장 시뮬레이션",
+      "label_en": "Farming Sim",
+      "aliases": [
+        "Farming Sim",
+        "농장 시뮬레이션"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "tag:farming",
+        "genre:simulation"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:roguelite",
+      "label_ko": "로그라이트",
+      "label_en": "Roguelite",
+      "aliases": [
+        "Roguelite",
+        "Rogue-lite",
+        "로그라이트"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:fps",
+      "label_ko": "1인칭 슈팅",
+      "label_en": "FPS",
+      "aliases": [
+        "FPS",
+        "First-Person Shooter",
+        "1인칭 슈팅"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "genre:shooter",
+        "perspective:first_person"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:third_person_shooter",
+      "label_ko": "3인칭 슈팅",
+      "label_en": "Third-Person Shooter",
+      "aliases": [
+        "Third-Person Shooter",
+        "TPS",
+        "3인칭 슈팅"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "genre:shooter",
+        "perspective:third_person"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:survival",
+      "label_ko": "생존",
+      "label_en": "Survival",
+      "aliases": [
+        "Survival",
+        "생존"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:sandbox",
+      "label_ko": "샌드박스",
+      "label_en": "Sandbox",
+      "aliases": [
+        "Sandbox",
+        "샌드박스"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:stealth",
+      "label_ko": "잠입",
+      "label_en": "Stealth",
+      "aliases": [
+        "Stealth",
+        "잠입"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:comedy",
+      "label_ko": "코미디",
+      "label_en": "Comedy",
+      "aliases": [
+        "Comedy",
+        "코미디"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:thriller",
+      "label_ko": "스릴러",
+      "label_en": "Thriller",
+      "aliases": [
+        "Thriller",
+        "스릴러"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:drama",
+      "label_ko": "드라마",
+      "label_en": "Drama",
+      "aliases": [
+        "Drama",
+        "드라마"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:non_fiction",
+      "label_ko": "논픽션",
+      "label_en": "Non-fiction",
+      "aliases": [
+        "Non-fiction",
+        "논픽션"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:educational",
+      "label_ko": "교육",
+      "label_en": "Educational",
+      "aliases": [
+        "Educational",
+        "Education",
+        "교육"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:business",
+      "label_ko": "비즈니스",
+      "label_en": "Business",
+      "aliases": [
+        "Business",
+        "비즈니스"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:warfare",
+      "label_ko": "전쟁",
+      "label_en": "Warfare",
+      "aliases": [
+        "Warfare",
+        "War",
+        "전쟁"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:romance",
+      "label_ko": "로맨스",
+      "label_en": "Romance",
+      "aliases": [
+        "Romance",
+        "로맨스"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:party",
+      "label_ko": "파티",
+      "label_en": "Party",
+      "aliases": [
+        "Party",
+        "파티"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:erotic",
+      "label_ko": "에로틱",
+      "label_en": "Erotic",
+      "aliases": [
+        "Erotic",
+        "에로틱"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:kids",
+      "label_ko": "아동",
+      "label_en": "Kids",
+      "aliases": [
+        "Kids",
+        "아동"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:2_5d",
+      "label_ko": null,
+      "label_en": "2.5D",
+      "aliases": [
+        "2.5D"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "perspective:isometric",
+      "label_ko": "등각",
+      "label_en": "Isometric",
+      "aliases": [
+        "Isometric",
+        "등각"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "perspective:bird_isometric",
+      "label_ko": null,
+      "label_en": "Bird view / Isometric",
+      "aliases": [
+        "Bird view / Isometric"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "perspective:side_view",
+      "label_ko": "측면 시점",
+      "label_en": "Side view",
+      "aliases": [
+        "Side view",
+        "측면 시점"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "perspective:text",
+      "label_ko": "텍스트 시점",
+      "label_en": "Text",
+      "aliases": [
+        "Text",
+        "텍스트 시점"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "perspective:vr",
+      "label_ko": "가상현실",
+      "label_en": "Virtual Reality",
+      "aliases": [
+        "Virtual Reality",
+        "VR",
+        "가상현실"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "category:online_co_op",
+      "label_ko": "온라인 협동",
+      "label_en": "Online Co-op",
+      "aliases": [
+        "Online Co-op",
+        "온라인 협동"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "category:co_op"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "category:local_co_op",
+      "label_ko": "로컬 협동",
+      "label_en": "Local Co-op",
+      "aliases": [
+        "Local Co-op",
+        "로컬 협동"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "category:co_op"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "category:shared_split_co_op",
+      "label_ko": "공유/분할 화면 협동",
+      "label_en": "Shared/Split Screen Co-op",
+      "aliases": [
+        "Shared/Split Screen Co-op",
+        "공유/분할 화면 협동"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "category:co_op",
+        "category:split_screen"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "category:online_pvp",
+      "label_ko": "온라인 PvP",
+      "label_en": "Online PvP",
+      "aliases": [
+        "Online PvP",
+        "온라인 PvP"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "category:pvp"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "category:shared_split_pvp",
+      "label_ko": "공유/분할 화면 PvP",
+      "label_en": "Shared/Split Screen PvP",
+      "aliases": [
+        "Shared/Split Screen PvP",
+        "공유/분할 화면 PvP"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "category:pvp",
+        "category:split_screen"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "category:local_multiplayer",
+      "label_ko": "로컬 멀티플레이어",
+      "label_en": "Local Multiplayer",
+      "aliases": [
+        "Local Multiplayer",
+        "로컬 멀티플레이어"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "category:multiplayer"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "category:mmo",
+      "label_ko": "대규모 멀티플레이어",
+      "label_en": "Massively Multiplayer",
+      "aliases": [
+        "Massively Multiplayer",
+        "Massively Multiplayer Online (MMO)",
+        "MMO",
+        "대규모 멀티플레이어"
+      ],
+      "score_eligible": true,
+      "parents": [
+        "category:multiplayer"
+      ],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "category:split_screen",
+      "label_ko": "분할 화면",
+      "label_en": "Split screen",
+      "aliases": [
+        "Split screen",
+        "Split Screen",
+        "분할 화면"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "category:battle_royale",
+      "label_ko": "배틀 로얄",
+      "label_en": "Battle Royale",
+      "aliases": [
+        "Battle Royale",
+        "배틀 로얄"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "category:pve",
+      "label_ko": "플레이어 대 환경",
+      "label_en": "PvE",
+      "aliases": [
+        "PvE",
+        "플레이어 대 환경"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:atmospheric",
+      "label_ko": null,
+      "label_en": "Atmospheric",
+      "aliases": [
+        "Atmospheric"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:colorful",
+      "label_ko": null,
+      "label_en": "Colorful",
+      "aliases": [
+        "Colorful"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:combat",
+      "label_ko": null,
+      "label_en": "Combat",
+      "aliases": [
+        "Combat"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:stylized",
+      "label_ko": null,
+      "label_en": "Stylized",
+      "aliases": [
+        "Stylized"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:funny",
+      "label_ko": null,
+      "label_en": "Funny",
+      "aliases": [
+        "Funny"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:action_adventure",
+      "label_ko": null,
+      "label_en": "Action-Adventure",
+      "aliases": [
+        "Action-Adventure"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:controller",
+      "label_ko": null,
+      "label_en": "Controller",
+      "aliases": [
+        "Controller"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:family_friendly",
+      "label_ko": null,
+      "label_en": "Family Friendly",
+      "aliases": [
+        "Family Friendly"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:retro",
+      "label_ko": null,
+      "label_en": "Retro",
+      "aliases": [
+        "Retro"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:violent",
+      "label_ko": null,
+      "label_en": "Violent",
+      "aliases": [
+        "Violent"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:female_protagonist",
+      "label_ko": null,
+      "label_en": "Female Protagonist",
+      "aliases": [
+        "Female Protagonist"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:dark",
+      "label_ko": null,
+      "label_en": "Dark",
+      "aliases": [
+        "Dark"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:sexual_content",
+      "label_ko": null,
+      "label_en": "Sexual Content",
+      "aliases": [
+        "Sexual Content"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:physics",
+      "label_ko": null,
+      "label_en": "Physics",
+      "aliases": [
+        "Physics"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:linear",
+      "label_ko": null,
+      "label_en": "Linear",
+      "aliases": [
+        "Linear"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:cartoony",
+      "label_ko": null,
+      "label_en": "Cartoony",
+      "aliases": [
+        "Cartoony"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:nudity",
+      "label_ko": null,
+      "label_en": "Nudity",
+      "aliases": [
+        "Nudity"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:psychological_horror",
+      "label_ko": null,
+      "label_en": "Psychological Horror",
+      "aliases": [
+        "Psychological Horror"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:resource_management",
+      "label_ko": null,
+      "label_en": "Resource Management",
+      "aliases": [
+        "Resource Management"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:magic",
+      "label_ko": null,
+      "label_en": "Magic",
+      "aliases": [
+        "Magic"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:management",
+      "label_ko": null,
+      "label_en": "Management",
+      "aliases": [
+        "Management"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:2d_platformer",
+      "label_ko": null,
+      "label_en": "2D Platformer",
+      "aliases": [
+        "2D Platformer"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:medieval",
+      "label_ko": null,
+      "label_en": "Medieval",
+      "aliases": [
+        "Medieval"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:old_school",
+      "label_ko": null,
+      "label_en": "Old School",
+      "aliases": [
+        "Old School"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:hand_drawn",
+      "label_ko": null,
+      "label_en": "Hand-drawn",
+      "aliases": [
+        "Hand-drawn"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:minimalist",
+      "label_ko": null,
+      "label_en": "Minimalist",
+      "aliases": [
+        "Minimalist"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:crafting",
+      "label_ko": null,
+      "label_en": "Crafting",
+      "aliases": [
+        "Crafting"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:action_rpg",
+      "label_ko": null,
+      "label_en": "Action RPG",
+      "aliases": [
+        "Action RPG"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:immersive_sim",
+      "label_ko": null,
+      "label_en": "Immersive Sim",
+      "aliases": [
+        "Immersive Sim"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:futuristic",
+      "label_ko": null,
+      "label_en": "Futuristic",
+      "aliases": [
+        "Futuristic"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:procedural_generation",
+      "label_ko": null,
+      "label_en": "Procedural Generation",
+      "aliases": [
+        "Procedural Generation"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:emotional",
+      "label_ko": null,
+      "label_en": "Emotional",
+      "aliases": [
+        "Emotional"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:action_roguelike",
+      "label_ko": null,
+      "label_en": "Action Roguelike",
+      "aliases": [
+        "Action Roguelike"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:cartoon",
+      "label_ko": null,
+      "label_en": "Cartoon",
+      "aliases": [
+        "Cartoon"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:logic",
+      "label_ko": null,
+      "label_en": "Logic",
+      "aliases": [
+        "Logic"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:incremental",
+      "label_ko": null,
+      "label_en": "Incremental",
+      "aliases": [
+        "Incremental"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:interactive_fiction",
+      "label_ko": null,
+      "label_en": "Interactive Fiction",
+      "aliases": [
+        "Interactive Fiction"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:3d_platformer",
+      "label_ko": null,
+      "label_en": "3D Platformer",
+      "aliases": [
+        "3D Platformer"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:choose_your_own_adventure",
+      "label_ko": null,
+      "label_en": "Choose Your Own Adventure",
+      "aliases": [
+        "Choose Your Own Adventure"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:survival_horror",
+      "label_ko": null,
+      "label_en": "Survival Horror",
+      "aliases": [
+        "Survival Horror"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:utilities",
+      "label_ko": null,
+      "label_en": "Utilities",
+      "aliases": [
+        "Utilities"
+      ],
+      "score_eligible": false,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:base_building",
+      "label_ko": null,
+      "label_en": "Base Building",
+      "aliases": [
+        "Base Building"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:1990_s",
+      "label_ko": null,
+      "label_en": "1990's",
+      "aliases": [
+        "1990's"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:hentai",
+      "label_ko": null,
+      "label_en": "Hentai",
+      "aliases": [
+        "Hentai"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:surreal",
+      "label_ko": null,
+      "label_en": "Surreal",
+      "aliases": [
+        "Surreal"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:economy",
+      "label_ko": null,
+      "label_en": "Economy",
+      "aliases": [
+        "Economy"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:dating_sim",
+      "label_ko": null,
+      "label_en": "Dating Sim",
+      "aliases": [
+        "Dating Sim"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:lore_rich",
+      "label_ko": null,
+      "label_en": "Lore-Rich",
+      "aliases": [
+        "Lore-Rich"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:life_sim",
+      "label_ko": null,
+      "label_en": "Life Sim",
+      "aliases": [
+        "Life Sim"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:inventory_management",
+      "label_ko": null,
+      "label_en": "Inventory Management",
+      "aliases": [
+        "Inventory Management"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:bullet_hell",
+      "label_ko": null,
+      "label_en": "Bullet Hell",
+      "aliases": [
+        "Bullet Hell"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:score_attack",
+      "label_ko": null,
+      "label_en": "Score Attack",
+      "aliases": [
+        "Score Attack"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:dungeon_crawler",
+      "label_ko": null,
+      "label_en": "Dungeon Crawler",
+      "aliases": [
+        "Dungeon Crawler"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:strategy_rpg",
+      "label_ko": null,
+      "label_en": "Strategy RPG",
+      "aliases": [
+        "Strategy RPG"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:walking_simulator",
+      "label_ko": null,
+      "label_en": "Walking Simulator",
+      "aliases": [
+        "Walking Simulator"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:tabletop",
+      "label_ko": null,
+      "label_en": "Tabletop",
+      "aliases": [
+        "Tabletop"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:dialogue_heavy",
+      "label_ko": null,
+      "label_en": "Dialogue Heavy",
+      "aliases": [
+        "Dialogue Heavy"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:puzzle_platformer",
+      "label_ko": null,
+      "label_en": "Puzzle Platformer",
+      "aliases": [
+        "Puzzle Platformer"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:cozy",
+      "label_ko": null,
+      "label_en": "Cozy",
+      "aliases": [
+        "Cozy"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:text_based",
+      "label_ko": null,
+      "label_en": "Text-Based",
+      "aliases": [
+        "Text-Based"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:psychological",
+      "label_ko": null,
+      "label_en": "Psychological",
+      "aliases": [
+        "Psychological"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:shoot_em_up",
+      "label_ko": null,
+      "label_en": "Shoot 'Em Up",
+      "aliases": [
+        "Shoot 'Em Up"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:zombies",
+      "label_ko": null,
+      "label_en": "Zombies",
+      "aliases": [
+        "Zombies"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:investigation",
+      "label_ko": null,
+      "label_en": "Investigation",
+      "aliases": [
+        "Investigation"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:lgbtq",
+      "label_ko": null,
+      "label_en": "LGBTQ+",
+      "aliases": [
+        "LGBTQ+"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:jrpg",
+      "label_ko": null,
+      "label_en": "JRPG",
+      "aliases": [
+        "JRPG"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:supernatural",
+      "label_ko": null,
+      "label_en": "Supernatural",
+      "aliases": [
+        "Supernatural"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:artificial_intelligence",
+      "label_ko": null,
+      "label_en": "Artificial Intelligence",
+      "aliases": [
+        "Artificial Intelligence"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:deckbuilding",
+      "label_ko": null,
+      "label_en": "Deckbuilding",
+      "aliases": [
+        "Deckbuilding"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:design_illustration",
+      "label_ko": null,
+      "label_en": "Design & Illustration",
+      "aliases": [
+        "Design & Illustration"
+      ],
+      "score_eligible": false,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:1980s",
+      "label_ko": null,
+      "label_en": "1980s",
+      "aliases": [
+        "1980s"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:time_management",
+      "label_ko": null,
+      "label_en": "Time Management",
+      "aliases": [
+        "Time Management"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:party_based_rpg",
+      "label_ko": null,
+      "label_en": "Party-Based RPG",
+      "aliases": [
+        "Party-Based RPG"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:great_soundtrack",
+      "label_ko": null,
+      "label_en": "Great Soundtrack",
+      "aliases": [
+        "Great Soundtrack"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:dark_humor",
+      "label_ko": null,
+      "label_en": "Dark Humor",
+      "aliases": [
+        "Dark Humor"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:tutorial",
+      "label_ko": null,
+      "label_en": "Tutorial",
+      "aliases": [
+        "Tutorial"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:loot",
+      "label_ko": null,
+      "label_en": "Loot",
+      "aliases": [
+        "Loot"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:replay_value",
+      "label_ko": null,
+      "label_en": "Replay Value",
+      "aliases": [
+        "Replay Value"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:team_based",
+      "label_ko": null,
+      "label_en": "Team-Based",
+      "aliases": [
+        "Team-Based"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:nonlinear",
+      "label_ko": null,
+      "label_en": "Nonlinear",
+      "aliases": [
+        "Nonlinear"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:top_down_shooter",
+      "label_ko": null,
+      "label_en": "Top-Down Shooter",
+      "aliases": [
+        "Top-Down Shooter"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:demons",
+      "label_ko": null,
+      "label_en": "Demons",
+      "aliases": [
+        "Demons"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:aliens",
+      "label_ko": null,
+      "label_en": "Aliens",
+      "aliases": [
+        "Aliens"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:tactical_rpg",
+      "label_ko": null,
+      "label_en": "Tactical RPG",
+      "aliases": [
+        "Tactical RPG"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:robots",
+      "label_ko": null,
+      "label_en": "Robots",
+      "aliases": [
+        "Robots"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:detective",
+      "label_ko": null,
+      "label_en": "Detective",
+      "aliases": [
+        "Detective"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:automation",
+      "label_ko": null,
+      "label_en": "Automation",
+      "aliases": [
+        "Automation"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:tower_defense",
+      "label_ko": null,
+      "label_en": "Tower Defense",
+      "aliases": [
+        "Tower Defense"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:modern",
+      "label_ko": null,
+      "label_en": "Modern",
+      "aliases": [
+        "Modern"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:real_time_tactics",
+      "label_ko": null,
+      "label_en": "Real Time Tactics",
+      "aliases": [
+        "Real Time Tactics"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:software",
+      "label_ko": null,
+      "label_en": "Software",
+      "aliases": [
+        "Software"
+      ],
+      "score_eligible": false,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:perma_death",
+      "label_ko": null,
+      "label_en": "Perma Death",
+      "aliases": [
+        "Perma Death"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:dystopian",
+      "label_ko": null,
+      "label_en": "Dystopian",
+      "aliases": [
+        "Dystopian"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:driving",
+      "label_ko": null,
+      "label_en": "Driving",
+      "aliases": [
+        "Driving"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:abstract",
+      "label_ko": null,
+      "label_en": "Abstract",
+      "aliases": [
+        "Abstract"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:card_battler",
+      "label_ko": null,
+      "label_en": "Card Battler",
+      "aliases": [
+        "Card Battler"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:crpg",
+      "label_ko": null,
+      "label_en": "CRPG",
+      "aliases": [
+        "CRPG"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:arena_shooter",
+      "label_ko": null,
+      "label_en": "Arena Shooter",
+      "aliases": [
+        "Arena Shooter"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:precision_platformer",
+      "label_ko": null,
+      "label_en": "Precision Platformer",
+      "aliases": [
+        "Precision Platformer"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:comic_book",
+      "label_ko": null,
+      "label_en": "Comic Book",
+      "aliases": [
+        "Comic Book"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:capitalism",
+      "label_ko": null,
+      "label_en": "Capitalism",
+      "aliases": [
+        "Capitalism"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:psychedelic",
+      "label_ko": null,
+      "label_en": "Psychedelic",
+      "aliases": [
+        "Psychedelic"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:cats",
+      "label_ko": null,
+      "label_en": "Cats",
+      "aliases": [
+        "Cats"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:co_op_campaign",
+      "label_ko": null,
+      "label_en": "Co-op Campaign",
+      "aliases": [
+        "Co-op Campaign"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:party_game",
+      "label_ko": null,
+      "label_en": "Party Game",
+      "aliases": [
+        "Party Game"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:mythology",
+      "label_ko": null,
+      "label_en": "Mythology",
+      "aliases": [
+        "Mythology"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:wargame",
+      "label_ko": null,
+      "label_en": "Wargame",
+      "aliases": [
+        "Wargame"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:memes",
+      "label_ko": null,
+      "label_en": "Memes",
+      "aliases": [
+        "Memes"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:creature_collector",
+      "label_ko": null,
+      "label_en": "Creature Collector",
+      "aliases": [
+        "Creature Collector"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:4_player_local",
+      "label_ko": null,
+      "label_en": "4 Player Local",
+      "aliases": [
+        "4 Player Local"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:alternate_history",
+      "label_ko": null,
+      "label_en": "Alternate History",
+      "aliases": [
+        "Alternate History"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:grid_based_movement",
+      "label_ko": null,
+      "label_en": "Grid-Based Movement",
+      "aliases": [
+        "Grid-Based Movement"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:crime",
+      "label_ko": null,
+      "label_en": "Crime",
+      "aliases": [
+        "Crime"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:class_based",
+      "label_ko": null,
+      "label_en": "Class-Based",
+      "aliases": [
+        "Class-Based"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:level_editor",
+      "label_ko": null,
+      "label_en": "Level Editor",
+      "aliases": [
+        "Level Editor"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:dragons",
+      "label_ko": null,
+      "label_en": "Dragons",
+      "aliases": [
+        "Dragons"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:fast_paced",
+      "label_ko": null,
+      "label_en": "Fast-Paced",
+      "aliases": [
+        "Fast-Paced"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:game_development",
+      "label_ko": null,
+      "label_en": "Game Development",
+      "aliases": [
+        "Game Development"
+      ],
+      "score_eligible": false,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:short",
+      "label_ko": null,
+      "label_en": "Short",
+      "aliases": [
+        "Short"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:moddable",
+      "label_ko": null,
+      "label_en": "Moddable",
+      "aliases": [
+        "Moddable"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:auto_battler",
+      "label_ko": null,
+      "label_en": "Auto Battler",
+      "aliases": [
+        "Auto Battler"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:trading",
+      "label_ko": null,
+      "label_en": "Trading",
+      "aliases": [
+        "Trading"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:flight",
+      "label_ko": null,
+      "label_en": "Flight",
+      "aliases": [
+        "Flight"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:parkour",
+      "label_ko": null,
+      "label_en": "Parkour",
+      "aliases": [
+        "Parkour"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:animation_modeling",
+      "label_ko": null,
+      "label_en": "Animation & Modeling",
+      "aliases": [
+        "Animation & Modeling"
+      ],
+      "score_eligible": false,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:wholesome",
+      "label_ko": null,
+      "label_en": "Wholesome",
+      "aliases": [
+        "Wholesome"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:metroidvania",
+      "label_ko": null,
+      "label_en": "Metroidvania",
+      "aliases": [
+        "Metroidvania"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:dark_comedy",
+      "label_ko": null,
+      "label_en": "Dark Comedy",
+      "aliases": [
+        "Dark Comedy"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:cooking",
+      "label_ko": null,
+      "label_en": "Cooking",
+      "aliases": [
+        "Cooking"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:philosophical",
+      "label_ko": null,
+      "label_en": "Philosophical",
+      "aliases": [
+        "Philosophical"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:runner",
+      "label_ko": null,
+      "label_en": "Runner",
+      "aliases": [
+        "Runner"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:2d_fighter",
+      "label_ko": null,
+      "label_en": "2D Fighter",
+      "aliases": [
+        "2D Fighter"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:automobile_sim",
+      "label_ko": null,
+      "label_en": "Automobile Sim",
+      "aliases": [
+        "Automobile Sim"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:narrative",
+      "label_ko": null,
+      "label_en": "Narrative",
+      "aliases": [
+        "Narrative"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:gun_customization",
+      "label_ko": null,
+      "label_en": "Gun Customization",
+      "aliases": [
+        "Gun Customization"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:vehicular_combat",
+      "label_ko": null,
+      "label_en": "Vehicular Combat",
+      "aliases": [
+        "Vehicular Combat"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:3d_fighter",
+      "label_ko": null,
+      "label_en": "3D Fighter",
+      "aliases": [
+        "3D Fighter"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:soundtrack",
+      "label_ko": null,
+      "label_en": "Soundtrack",
+      "aliases": [
+        "Soundtrack"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:swordplay",
+      "label_ko": null,
+      "label_en": "Swordplay",
+      "aliases": [
+        "Swordplay"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:colony_sim",
+      "label_ko": null,
+      "label_en": "Colony Sim",
+      "aliases": [
+        "Colony Sim"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:esports",
+      "label_ko": null,
+      "label_en": "eSports",
+      "aliases": [
+        "eSports"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:science",
+      "label_ko": null,
+      "label_en": "Science",
+      "aliases": [
+        "Science"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:noir",
+      "label_ko": null,
+      "label_en": "Noir",
+      "aliases": [
+        "Noir"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:mmorpg",
+      "label_ko": null,
+      "label_en": "MMORPG",
+      "aliases": [
+        "MMORPG"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:conspiracy",
+      "label_ko": null,
+      "label_en": "Conspiracy",
+      "aliases": [
+        "Conspiracy"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:mining",
+      "label_ko": null,
+      "label_en": "Mining",
+      "aliases": [
+        "Mining"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:job_simulator",
+      "label_ko": null,
+      "label_en": "Job Simulator",
+      "aliases": [
+        "Job Simulator"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:quick_time_events",
+      "label_ko": null,
+      "label_en": "Quick-Time Events",
+      "aliases": [
+        "Quick-Time Events"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:lovecraftian",
+      "label_ko": null,
+      "label_en": "Lovecraftian",
+      "aliases": [
+        "Lovecraftian"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:satire",
+      "label_ko": null,
+      "label_en": "Satire",
+      "aliases": [
+        "Satire"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:roguelike_deckbuilder",
+      "label_ko": null,
+      "label_en": "Roguelike Deckbuilder",
+      "aliases": [
+        "Roguelike Deckbuilder"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:twin_stick_shooter",
+      "label_ko": null,
+      "label_en": "Twin Stick Shooter",
+      "aliases": [
+        "Twin Stick Shooter"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:gothic",
+      "label_ko": null,
+      "label_en": "Gothic",
+      "aliases": [
+        "Gothic"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:shop_keeper",
+      "label_ko": null,
+      "label_en": "Shop Keeper",
+      "aliases": [
+        "Shop Keeper"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:space_sim",
+      "label_ko": null,
+      "label_en": "Space Sim",
+      "aliases": [
+        "Space Sim"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:grand_strategy",
+      "label_ko": null,
+      "label_en": "Grand Strategy",
+      "aliases": [
+        "Grand Strategy"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:parody",
+      "label_ko": null,
+      "label_en": "Parody",
+      "aliases": [
+        "Parody"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:underground",
+      "label_ko": null,
+      "label_en": "Underground",
+      "aliases": [
+        "Underground"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:animals",
+      "label_ko": null,
+      "label_en": "Animals",
+      "aliases": [
+        "Animals"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:dynamic_narration",
+      "label_ko": null,
+      "label_en": "Dynamic Narration",
+      "aliases": [
+        "Dynamic Narration"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:fishing",
+      "label_ko": null,
+      "label_en": "Fishing",
+      "aliases": [
+        "Fishing"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:video_production",
+      "label_ko": null,
+      "label_en": "Video Production",
+      "aliases": [
+        "Video Production"
+      ],
+      "score_eligible": false,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:looter_shooter",
+      "label_ko": null,
+      "label_en": "Looter Shooter",
+      "aliases": [
+        "Looter Shooter"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:agriculture",
+      "label_ko": null,
+      "label_en": "Agriculture",
+      "aliases": [
+        "Agriculture"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:audio_production",
+      "label_ko": null,
+      "label_en": "Audio Production",
+      "aliases": [
+        "Audio Production"
+      ],
+      "score_eligible": false,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:immersive",
+      "label_ko": null,
+      "label_en": "Immersive",
+      "aliases": [
+        "Immersive"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:gambling",
+      "label_ko": null,
+      "label_en": "Gambling",
+      "aliases": [
+        "Gambling"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:experimental",
+      "label_ko": null,
+      "label_en": "Experimental",
+      "aliases": [
+        "Experimental"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:6dof",
+      "label_ko": null,
+      "label_en": "6DOF",
+      "aliases": [
+        "6DOF"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:bullet_time",
+      "label_ko": null,
+      "label_en": "Bullet Time",
+      "aliases": [
+        "Bullet Time"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:mystery_dungeon",
+      "label_ko": null,
+      "label_en": "Mystery Dungeon",
+      "aliases": [
+        "Mystery Dungeon"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:classic",
+      "label_ko": null,
+      "label_en": "Classic",
+      "aliases": [
+        "Classic"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:world_war_ii",
+      "label_ko": null,
+      "label_en": "World War II",
+      "aliases": [
+        "World War II"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:time_manipulation",
+      "label_ko": null,
+      "label_en": "Time Manipulation",
+      "aliases": [
+        "Time Manipulation"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:voxel",
+      "label_ko": null,
+      "label_en": "Voxel",
+      "aliases": [
+        "Voxel"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:asynchronous_multiplayer",
+      "label_ko": null,
+      "label_en": "Asynchronous Multiplayer",
+      "aliases": [
+        "Asynchronous Multiplayer"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:martial_arts",
+      "label_ko": null,
+      "label_en": "Martial Arts",
+      "aliases": [
+        "Martial Arts"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:transportation",
+      "label_ko": null,
+      "label_en": "Transportation",
+      "aliases": [
+        "Transportation"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:bullet_heaven",
+      "label_ko": null,
+      "label_en": "Bullet Heaven",
+      "aliases": [
+        "Bullet Heaven"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:mechs",
+      "label_ko": null,
+      "label_en": "Mechs",
+      "aliases": [
+        "Mechs"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:spectacle_fighter",
+      "label_ko": null,
+      "label_en": "Spectacle fighter",
+      "aliases": [
+        "Spectacle fighter"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:dogs",
+      "label_ko": null,
+      "label_en": "Dogs",
+      "aliases": [
+        "Dogs"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:combat_racing",
+      "label_ko": null,
+      "label_en": "Combat Racing",
+      "aliases": [
+        "Combat Racing"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:action_rts",
+      "label_ko": null,
+      "label_en": "Action RTS",
+      "aliases": [
+        "Action RTS"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:match_3",
+      "label_ko": null,
+      "label_en": "Match 3",
+      "aliases": [
+        "Match 3"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:fmv",
+      "label_ko": null,
+      "label_en": "FMV",
+      "aliases": [
+        "FMV"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:beautiful",
+      "label_ko": null,
+      "label_en": "Beautiful",
+      "aliases": [
+        "Beautiful"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:hero_shooter",
+      "label_ko": null,
+      "label_en": "Hero Shooter",
+      "aliases": [
+        "Hero Shooter"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:trading_card_game",
+      "label_ko": null,
+      "label_en": "Trading Card Game",
+      "aliases": [
+        "Trading Card Game"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:open_world_survival_craft",
+      "label_ko": null,
+      "label_en": "Open World Survival Craft",
+      "aliases": [
+        "Open World Survival Craft"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:underwater",
+      "label_ko": null,
+      "label_en": "Underwater",
+      "aliases": [
+        "Underwater"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:god_game",
+      "label_ko": null,
+      "label_en": "God Game",
+      "aliases": [
+        "God Game"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:time_travel",
+      "label_ko": null,
+      "label_en": "Time Travel",
+      "aliases": [
+        "Time Travel"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:vampires",
+      "label_ko": null,
+      "label_en": "Vampires",
+      "aliases": [
+        "Vampires"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:ninja",
+      "label_ko": null,
+      "label_en": "Ninja",
+      "aliases": [
+        "Ninja"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:pirates",
+      "label_ko": null,
+      "label_en": "Pirates",
+      "aliases": [
+        "Pirates"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:solitaire",
+      "label_ko": null,
+      "label_en": "Solitaire",
+      "aliases": [
+        "Solitaire"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:hex_grid",
+      "label_ko": null,
+      "label_en": "Hex Grid",
+      "aliases": [
+        "Hex Grid"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:political_sim",
+      "label_ko": null,
+      "label_en": "Political Sim",
+      "aliases": [
+        "Political Sim"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:steampunk",
+      "label_ko": null,
+      "label_en": "Steampunk",
+      "aliases": [
+        "Steampunk"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:otome",
+      "label_ko": null,
+      "label_en": "Otome",
+      "aliases": [
+        "Otome"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:boomer_shooter",
+      "label_ko": null,
+      "label_en": "Boomer Shooter",
+      "aliases": [
+        "Boomer Shooter"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:hacking",
+      "label_ko": null,
+      "label_en": "Hacking",
+      "aliases": [
+        "Hacking"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:hunting",
+      "label_ko": null,
+      "label_en": "Hunting",
+      "aliases": [
+        "Hunting"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:trains",
+      "label_ko": null,
+      "label_en": "Trains",
+      "aliases": [
+        "Trains"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:typing",
+      "label_ko": null,
+      "label_en": "Typing",
+      "aliases": [
+        "Typing"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:software_training",
+      "label_ko": null,
+      "label_en": "Software Training",
+      "aliases": [
+        "Software Training"
+      ],
+      "score_eligible": false,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:faith",
+      "label_ko": null,
+      "label_en": "Faith",
+      "aliases": [
+        "Faith"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:tanks",
+      "label_ko": null,
+      "label_en": "Tanks",
+      "aliases": [
+        "Tanks"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:programming",
+      "label_ko": null,
+      "label_en": "Programming",
+      "aliases": [
+        "Programming"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:4x",
+      "label_ko": null,
+      "label_en": "4X",
+      "aliases": [
+        "4X",
+        "4X (explore, expand, exploit, and exterminate)"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:mouse_only",
+      "label_ko": null,
+      "label_en": "Mouse Only",
+      "aliases": [
+        "Mouse Only"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:diplomacy",
+      "label_ko": null,
+      "label_en": "Diplomacy",
+      "aliases": [
+        "Diplomacy"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:minigames",
+      "label_ko": null,
+      "label_en": "Minigames",
+      "aliases": [
+        "Minigames"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:sokoban",
+      "label_ko": null,
+      "label_en": "Sokoban",
+      "aliases": [
+        "Sokoban"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:assassins",
+      "label_ko": null,
+      "label_en": "Assassins",
+      "aliases": [
+        "Assassins"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:nostalgia",
+      "label_ko": null,
+      "label_en": "Nostalgia",
+      "aliases": [
+        "Nostalgia"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:snow",
+      "label_ko": null,
+      "label_en": "Snow",
+      "aliases": [
+        "Snow"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:remake",
+      "label_ko": null,
+      "label_en": "Remake",
+      "aliases": [
+        "Remake"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:western",
+      "label_ko": null,
+      "label_en": "Western",
+      "aliases": [
+        "Western"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:photo_editing",
+      "label_ko": null,
+      "label_en": "Photo Editing",
+      "aliases": [
+        "Photo Editing"
+      ],
+      "score_eligible": false,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:superhero",
+      "label_ko": null,
+      "label_en": "Superhero",
+      "aliases": [
+        "Superhero"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:dinosaurs",
+      "label_ko": null,
+      "label_en": "Dinosaurs",
+      "aliases": [
+        "Dinosaurs"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:desktop_companion",
+      "label_ko": null,
+      "label_en": "Desktop Companion",
+      "aliases": [
+        "Desktop Companion"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:naval",
+      "label_ko": null,
+      "label_en": "Naval",
+      "aliases": [
+        "Naval"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:heist",
+      "label_ko": null,
+      "label_en": "Heist",
+      "aliases": [
+        "Heist"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:traditional_roguelike",
+      "label_ko": null,
+      "label_en": "Traditional Roguelike",
+      "aliases": [
+        "Traditional Roguelike"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:escape_room",
+      "label_ko": null,
+      "label_en": "Escape Room",
+      "aliases": [
+        "Escape Room"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:organizing",
+      "label_ko": null,
+      "label_en": "Organizing",
+      "aliases": [
+        "Organizing"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:cold_war",
+      "label_ko": null,
+      "label_en": "Cold War",
+      "aliases": [
+        "Cold War"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:character_action_game",
+      "label_ko": null,
+      "label_en": "Character Action Game",
+      "aliases": [
+        "Character Action Game"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:sailing",
+      "label_ko": null,
+      "label_en": "Sailing",
+      "aliases": [
+        "Sailing"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:naval_combat",
+      "label_ko": null,
+      "label_en": "Naval Combat",
+      "aliases": [
+        "Naval Combat"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:transhumanism",
+      "label_ko": null,
+      "label_en": "Transhumanism",
+      "aliases": [
+        "Transhumanism"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:music_based_procedural_generation",
+      "label_ko": null,
+      "label_en": "Music-Based Procedural Generation",
+      "aliases": [
+        "Music-Based Procedural Generation"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:archery",
+      "label_ko": null,
+      "label_en": "Archery",
+      "aliases": [
+        "Archery"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:cleaning",
+      "label_ko": null,
+      "label_en": "Cleaning",
+      "aliases": [
+        "Cleaning"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:football_soccer",
+      "label_ko": null,
+      "label_en": "Football (Soccer)",
+      "aliases": [
+        "Football (Soccer)"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:horses",
+      "label_ko": null,
+      "label_en": "Horses",
+      "aliases": [
+        "Horses"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:jump_scare",
+      "label_ko": null,
+      "label_en": "Jump Scare",
+      "aliases": [
+        "Jump Scare"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:real_time",
+      "label_ko": null,
+      "label_en": "Real-Time",
+      "aliases": [
+        "Real-Time"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:addictive",
+      "label_ko": null,
+      "label_en": "Addictive",
+      "aliases": [
+        "Addictive"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:decorating",
+      "label_ko": null,
+      "label_en": "Decorating",
+      "aliases": [
+        "Decorating"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:hobby_sim",
+      "label_ko": null,
+      "label_en": "Hobby Sim",
+      "aliases": [
+        "Hobby Sim"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:spaceships",
+      "label_ko": null,
+      "label_en": "Spaceships",
+      "aliases": [
+        "Spaceships"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:time_attack",
+      "label_ko": null,
+      "label_en": "Time Attack",
+      "aliases": [
+        "Time Attack"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:offroad",
+      "label_ko": null,
+      "label_en": "Offroad",
+      "aliases": [
+        "Offroad"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:werewolves",
+      "label_ko": null,
+      "label_en": "Werewolves",
+      "aliases": [
+        "Werewolves"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:episodic",
+      "label_ko": null,
+      "label_en": "Episodic",
+      "aliases": [
+        "Episodic"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:real_time_with_pause",
+      "label_ko": null,
+      "label_en": "Real-Time with Pause",
+      "aliases": [
+        "Real-Time with Pause"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:villain_protagonist",
+      "label_ko": null,
+      "label_en": "Villain Protagonist",
+      "aliases": [
+        "Villain Protagonist"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:epic",
+      "label_ko": null,
+      "label_en": "Epic",
+      "aliases": [
+        "Epic"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:sniper",
+      "label_ko": null,
+      "label_en": "Sniper",
+      "aliases": [
+        "Sniper"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:dice",
+      "label_ko": null,
+      "label_en": "Dice",
+      "aliases": [
+        "Dice"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:on_rails_shooter",
+      "label_ko": null,
+      "label_en": "On-Rails Shooter",
+      "aliases": [
+        "On-Rails Shooter"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:spelling",
+      "label_ko": null,
+      "label_en": "Spelling",
+      "aliases": [
+        "Spelling"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:dwarves",
+      "label_ko": null,
+      "label_en": "Dwarves",
+      "aliases": [
+        "Dwarves"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:extraction_shooter",
+      "label_ko": null,
+      "label_en": "Extraction Shooter",
+      "aliases": [
+        "Extraction Shooter"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:sequel",
+      "label_ko": null,
+      "label_en": "Sequel",
+      "aliases": [
+        "Sequel"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:outbreak_sim",
+      "label_ko": null,
+      "label_en": "Outbreak Sim",
+      "aliases": [
+        "Outbreak Sim"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:boss_rush",
+      "label_ko": null,
+      "label_en": "Boss Rush",
+      "aliases": [
+        "Boss Rush"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:chess",
+      "label_ko": null,
+      "label_en": "Chess",
+      "aliases": [
+        "Chess"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:social_deduction",
+      "label_ko": null,
+      "label_en": "Social Deduction",
+      "aliases": [
+        "Social Deduction"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:world_war_i",
+      "label_ko": null,
+      "label_en": "World War I",
+      "aliases": [
+        "World War I"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:mars",
+      "label_ko": null,
+      "label_en": "Mars",
+      "aliases": [
+        "Mars"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:boxing",
+      "label_ko": null,
+      "label_en": "Boxing",
+      "aliases": [
+        "Boxing"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:medical_sim",
+      "label_ko": null,
+      "label_en": "Medical Sim",
+      "aliases": [
+        "Medical Sim"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:basketball",
+      "label_ko": null,
+      "label_en": "Basketball",
+      "aliases": [
+        "Basketball"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:submarine",
+      "label_ko": null,
+      "label_en": "Submarine",
+      "aliases": [
+        "Submarine"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:golf",
+      "label_ko": null,
+      "label_en": "Golf",
+      "aliases": [
+        "Golf"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:mod",
+      "label_ko": null,
+      "label_en": "Mod",
+      "aliases": [
+        "Mod"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:touch_friendly",
+      "label_ko": null,
+      "label_en": "Touch-Friendly",
+      "aliases": [
+        "Touch-Friendly"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:motorbike",
+      "label_ko": null,
+      "label_en": "Motorbike",
+      "aliases": [
+        "Motorbike"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:elves",
+      "label_ko": null,
+      "label_en": "Elves",
+      "aliases": [
+        "Elves"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:gaming",
+      "label_ko": null,
+      "label_en": "Gaming",
+      "aliases": [
+        "Gaming"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:rome",
+      "label_ko": null,
+      "label_en": "Rome",
+      "aliases": [
+        "Rome"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:baseball",
+      "label_ko": null,
+      "label_en": "Baseball",
+      "aliases": [
+        "Baseball"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:360_video",
+      "label_ko": null,
+      "label_en": "360 Video",
+      "aliases": [
+        "360 Video"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:xianxia",
+      "label_ko": null,
+      "label_en": "Xianxia",
+      "aliases": [
+        "Xianxia"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:electronic_music",
+      "label_ko": null,
+      "label_en": "Electronic Music",
+      "aliases": [
+        "Electronic Music"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:bikes",
+      "label_ko": null,
+      "label_en": "Bikes",
+      "aliases": [
+        "Bikes"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:cult",
+      "label_ko": null,
+      "label_en": "Cult",
+      "aliases": [
+        "Cult"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:wuxia",
+      "label_ko": null,
+      "label_en": "Wuxia",
+      "aliases": [
+        "Wuxia"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:wrestling",
+      "label_ko": null,
+      "label_en": "Wrestling",
+      "aliases": [
+        "Wrestling"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:asymmetric_vr",
+      "label_ko": null,
+      "label_en": "Asymmetric VR",
+      "aliases": [
+        "Asymmetric VR"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:vikings",
+      "label_ko": null,
+      "label_en": "Vikings",
+      "aliases": [
+        "Vikings"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:poker",
+      "label_ko": null,
+      "label_en": "Poker",
+      "aliases": [
+        "Poker"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:skateboarding",
+      "label_ko": null,
+      "label_en": "Skateboarding",
+      "aliases": [
+        "Skateboarding"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:birds",
+      "label_ko": null,
+      "label_en": "Birds",
+      "aliases": [
+        "Birds"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:billiards",
+      "label_ko": null,
+      "label_en": "Billiards",
+      "aliases": [
+        "Billiards"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:espionage",
+      "label_ko": null,
+      "label_en": "Espionage",
+      "aliases": [
+        "Espionage"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:falling_blocks",
+      "label_ko": null,
+      "label_en": "Falling Blocks",
+      "aliases": [
+        "Falling Blocks"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:instrumental_music",
+      "label_ko": null,
+      "label_en": "Instrumental Music",
+      "aliases": [
+        "Instrumental Music"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:silent_protagonist",
+      "label_ko": null,
+      "label_en": "Silent Protagonist",
+      "aliases": [
+        "Silent Protagonist"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:mini_golf",
+      "label_ko": null,
+      "label_en": "Mini Golf",
+      "aliases": [
+        "Mini Golf"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:football_american",
+      "label_ko": null,
+      "label_en": "Football (American)",
+      "aliases": [
+        "Football (American)"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:skating",
+      "label_ko": null,
+      "label_en": "Skating",
+      "aliases": [
+        "Skating"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:samurai",
+      "label_ko": null,
+      "label_en": "Samurai",
+      "aliases": [
+        "Samurai"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:rock_music",
+      "label_ko": null,
+      "label_en": "Rock Music",
+      "aliases": [
+        "Rock Music"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:cycling",
+      "label_ko": null,
+      "label_en": "Cycling",
+      "aliases": [
+        "Cycling"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:mahjong",
+      "label_ko": null,
+      "label_en": "Mahjong",
+      "aliases": [
+        "Mahjong"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:foxes",
+      "label_ko": null,
+      "label_en": "Foxes",
+      "aliases": [
+        "Foxes"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:tennis",
+      "label_ko": null,
+      "label_en": "Tennis",
+      "aliases": [
+        "Tennis"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:language_learning",
+      "label_ko": null,
+      "label_en": "Language Learning",
+      "aliases": [
+        "Language Learning"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:motocross",
+      "label_ko": null,
+      "label_en": "Motocross",
+      "aliases": [
+        "Motocross"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:voice_control",
+      "label_ko": null,
+      "label_en": "Voice Control",
+      "aliases": [
+        "Voice Control"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:intentionally_awkward_controls",
+      "label_ko": null,
+      "label_en": "Intentionally Awkward Controls",
+      "aliases": [
+        "Intentionally Awkward Controls"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:hardware",
+      "label_ko": null,
+      "label_en": "Hardware",
+      "aliases": [
+        "Hardware"
+      ],
+      "score_eligible": false,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:trackir",
+      "label_ko": null,
+      "label_en": "TrackIR",
+      "aliases": [
+        "TrackIR"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:hockey",
+      "label_ko": null,
+      "label_en": "Hockey",
+      "aliases": [
+        "Hockey"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:bowling",
+      "label_ko": null,
+      "label_en": "Bowling",
+      "aliases": [
+        "Bowling"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:8_bit_music",
+      "label_ko": null,
+      "label_en": "8-bit Music",
+      "aliases": [
+        "8-bit Music"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:skiing",
+      "label_ko": null,
+      "label_en": "Skiing",
+      "aliases": [
+        "Skiing"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:snowboarding",
+      "label_ko": null,
+      "label_en": "Snowboarding",
+      "aliases": [
+        "Snowboarding"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:based_on_a_novel",
+      "label_ko": null,
+      "label_en": "Based On A Novel",
+      "aliases": [
+        "Based On A Novel"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:lemmings",
+      "label_ko": null,
+      "label_en": "Lemmings",
+      "aliases": [
+        "Lemmings"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:atv",
+      "label_ko": null,
+      "label_en": "ATV",
+      "aliases": [
+        "ATV"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:wolves",
+      "label_ko": null,
+      "label_en": "Wolves",
+      "aliases": [
+        "Wolves"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:musou",
+      "label_ko": null,
+      "label_en": "Musou",
+      "aliases": [
+        "Musou"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:bmx",
+      "label_ko": null,
+      "label_en": "BMX",
+      "aliases": [
+        "BMX"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:capybaras",
+      "label_ko": null,
+      "label_en": "Capybaras",
+      "aliases": [
+        "Capybaras"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:zoo",
+      "label_ko": null,
+      "label_en": "Zoo",
+      "aliases": [
+        "Zoo"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:benchmark",
+      "label_ko": null,
+      "label_en": "Benchmark",
+      "aliases": [
+        "Benchmark"
+      ],
+      "score_eligible": false,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:volleyball",
+      "label_ko": null,
+      "label_en": "Volleyball",
+      "aliases": [
+        "Volleyball"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:cricket",
+      "label_ko": null,
+      "label_en": "Cricket",
+      "aliases": [
+        "Cricket"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:rugby",
+      "label_ko": null,
+      "label_en": "Rugby",
+      "aliases": [
+        "Rugby"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "tag:reboot",
+      "label_ko": null,
+      "label_en": "Reboot",
+      "aliases": [
+        "Reboot"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    },
+    {
+      "code": "perspective:auditory",
+      "label_ko": "청각 중심",
+      "label_en": "Auditory",
+      "aliases": [
+        "Auditory",
+        "청각 중심"
+      ],
+      "score_eligible": true,
+      "parents": [],
+      "evidence_policy": "explicit_label_only"
+    }
+  ],
+  "igdb_seed": {
+    "genres": [
+      "Point-and-click",
+      "Fighting",
+      "Shooter",
+      "Music",
+      "Platform",
+      "Puzzle",
+      "Racing",
+      "Real Time Strategy (RTS)",
+      "Role-playing (RPG)",
+      "Simulator",
+      "Sport",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Tactical",
+      "Hack and slash/Beat 'em up",
+      "Quiz/Trivia",
+      "Pinball",
+      "Adventure",
+      "Indie",
+      "Arcade",
+      "Visual Novel",
+      "Card & Board Game",
+      "MOBA"
+    ],
+    "themes": [
+      "Action",
+      "Fantasy",
+      "Science fiction",
+      "Horror",
+      "Thriller",
+      "Survival",
+      "Historical",
+      "Stealth",
+      "Comedy",
+      "Business",
+      "Drama",
+      "Non-fiction",
+      "Sandbox",
+      "Educational",
+      "Kids",
+      "Open world",
+      "Warfare",
+      "Party",
+      "4X (explore, expand, exploit, and exterminate)",
+      "Erotic",
+      "Mystery",
+      "Romance"
+    ],
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative",
+      "Split screen",
+      "Massively Multiplayer Online (MMO)",
+      "Battle Royale"
+    ],
+    "player_perspectives": [
+      "First person",
+      "Third person",
+      "Bird view / Isometric",
+      "Side view",
+      "Text",
+      "Auditory",
+      "Virtual Reality"
+    ]
+  }
+}

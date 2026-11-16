@@ -1,0 +1,17 @@
+{
+  "checks": 1527,
+  "aliases": 574,
+  "codes": 444,
+  "steam_snapshot": 429,
+  "igdb_seed_counts": {
+    "genres": 23,
+    "themes": 22,
+    "game_modes": 6,
+    "player_perspectives": 7
+  },
+  "alias_conflicts": 0,
+  "missing_snapshot_labels": 0,
+  "parent_cycles": 0,
+  "python_runtime": "not_run_environment_unavailable",
+  "live_igdb_taxonomy": "not_fetched_credentials_not_available"
+}
