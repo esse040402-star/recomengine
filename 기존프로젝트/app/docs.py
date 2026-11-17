@@ -348,6 +348,25 @@ Swagger 오른쪽 위 `Authorize` 가 아니라, 이 항목의 `Try it out` 안�
                    "url": "https://store.steampowered.com/app/730/"}]},
         ok_text="요청한 묶음의 최신 자료", errors=(404, 422, 502),
     ),
+    "steam_top100": spec(
+        "Steam Top 100 (스팀 실시간 동시 접속 랭킹 100위)",
+        """
+Steam 공식 동시 접속자 기준 인기 게임 순위 1~100위를 App ID와 함께 조회합니다.
+- 기존 `/api/market?section=rankings` (10개)와 독립된 엔드포인트입니다.
+- `rank`는 Steam이 제공한 공식 순위이고 `app`은 Steam App ID입니다.
+- `players`는 현재 동시 접속자, `peakPlayers`는 Steam 차트의 최고 동시 접속자입니다.
+- 숫자가 반환되지 않은 항목은 추정하지 않고 null로 보존합니다.
+- `count`는 실제 수집된 항목 수, `complete`는 100개 수집 여부입니다.
+- `updatedAt`은 백엔드가 가져온 시각이고, 데이터는 10분간 메모리에 캐싱됩니다.
+- Steam에서 API 키를 요구하면 서버의 STEAM_API_KEY 환경변수를 설정해야 합니다.
+- 이름·이미지·장르 통합 및 React 화면 연결은 후속 단계에서 작업합니다.
+        """,
+        {"section": "rankings", "source": "steam_concurrent_players",
+         "updatedAt": "2026-11-17T02:00:00+00:00", "count": 2, "complete": False,
+         "data": [{"rank": 1, "app": 730, "players": 1000000, "peakPlayers": 1200000},
+                  {"rank": 2, "app": 570, "players": 600000, "peakPlayers": 800000}]},
+        ok_text="실시간 인기 순위 데이터", errors=(502,),
+    ),
     "steam_reviews": spec(
         "Steam Reviews (스팀 플레이어 리뷰 목록)",
         """
