@@ -42,7 +42,7 @@ def test_every_endpoint_uses_a_korean_doc():
         used.append(key)
     assert len(used) == len(set(used)), "같은 설명을 두 엔드포인트가 쓰고 있습니다"
     assert set(used) == set(docs.DOCS), f"어디서도 쓰지 않는 설명: {set(docs.DOCS) - set(used)}"
-    assert len(used) == 25
+    assert len(used) == 26
 
 
 def test_docs_are_korean_and_complete():
