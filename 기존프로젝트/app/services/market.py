@@ -106,6 +106,23 @@ async def _build_rankings() -> list[dict]:
     ]
 
 
+
+async def get_concurrent_rankings() -> dict:
+    """신규 TOP 100 API. 기존 /api/market 랭킹 응답과 캐시를 변경하지 않는다."""
+    entry = await cached(
+        "rankings:concurrent:top100", TTL_RANKINGS,
+        lambda: steam.fetch_concurrent_top(100),
+    )
+    rows = entry["data"]
+    return {
+        "section": "rankings",
+        "source": "steam_concurrent_players",
+        "updatedAt": entry["at"],
+        "count": len(rows),
+        "complete": len(rows) == 100,
+        "data": rows,
+    }
+
 # ---------------------------------------------------------------- 뉴스 · 신작 · 할인
 def _store_card(x: dict) -> dict:
     return {
