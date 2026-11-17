@@ -33,3 +33,13 @@
 - 실제 운영 Supabase/Render 전체 통합 검증을 완료했다는 의미는 아닙니다.
 
 세부 설문 매핑 검토는 `docs/survey_mapping_review_20261117.md`, Supabase 운영 변경 기록은 `docs/supabase_2026-11-17_live_update.md`를 참고하세요.
+
+
+## 추가 보안·마이그레이션 점검 (2026-11-17)
+
+- 세션별 사용자 소유권 검증 회귀 테스트를 `tests/test_api_mock.py`에 추가했습니다. 다른 계정이 세션 결과 조회, 답변 저장, 완료 처리, AI 설명 및 특가 조회를 시도하면 403이 반환되는지 확인합니다.
+- 실제 Supabase 운영 프로젝트의 migration ledger 13개 적용 이력을 확인하고, 현재 스키마 스냅샷 migration `20261117050155_reconcile_current_public_schema_snapshot.sql`을 기록했습니다.
+- 실제 DB 확인 결과: public 테이블 19개 모두 RLS 활성화, anon/authenticated 직접 테이블 권한 0개, service_role 테이블 권한 133개.
+- 운영 ledger에 없는 migration 초안 4개는 `supabase/archive/unapplied_migrations/`로 보존하고 활성 migration 폴더에서 제외했습니다. 특히 `20261117100002_secure_default_privileges.sql`은 권한 문제로 그대로 적용하면 안 됩니다.
+- 백엔드 소유권 검사 및 DB migration 정리 상세는 `docs/backend_ownership_and_migration_audit_2026-11-17.md`, migration 운용 주의사항은 `supabase/README.md`를 참고하세요.
+- 게임 데이터 적재/게임별 성향 점수 생성 및 회원가입부터 추천 저장까지의 실제 통합 테스트는 이번 작업 범위에서 제외되어 아직 진행하지 않았습니다.
