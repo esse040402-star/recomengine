@@ -84,6 +84,47 @@ async def fetch_most_played(limit: int = 10) -> list[dict]:
     return [{"rank": int(x["rank"]), "app": int(x["appid"])} for x in ranks[:limit] if x.get("appid")]
 
 
+async def fetch_concurrent_top(limit: int = 100) -> list[dict]:
+    """Steam 실시간 동시 접속 TOP 100. API 공식 rank/AppID 및 접속자 수를 그대로 사용한다.
+
+    기존 fetch_most_played()는 주간 차트용으로 유지한다.
+    Steam이 반환하지 않은 접속자 수는 None으로 보존하며 값을 만들지 않는다.
+    """
+    if not 1 <= limit <= 100:
+        raise ValueError("실시간 랭킹 조회 범위는 1~100개입니다.")
+    key = get_settings().steam_api_key
+    params = {"key": key} if key else {}
+    raw = await _get_json(
+        f"{API}/ISteamChartsService/GetGamesByConcurrentPlayers/v1/",
+        params, timeout=20,
+    )
+    response = raw.get("response") if isinstance(raw, dict) else None
+    ranks = response.get("ranks") if isinstance(response, dict) else None
+    if not isinstance(ranks, list) or not ranks:
+        raise ValueError("Steam 실시간 랭킹 응답에 순위 데이터가 없습니다.")
+
+    result = []
+    seen_apps = set()
+    seen_ranks = set()
+    for item in ranks[:limit]:
+        if not isinstance(item, dict):
+            raise ValueError("Steam 실시간 랭킹 항목 형식 오류")
+        rank, app = item.get("rank"), item.get("appid")
+        if (type(rank) is not int or rank < 1 or type(app) is not int or app < 1
+                or app in seen_apps or rank in seen_ranks):
+            raise ValueError("Steam 실시간 랭킹의 순위/AppID가 올바르지 않습니다.")
+        seen_apps.add(app)
+        seen_ranks.add(rank)
+        players = item.get("concurrent_in_game")
+        peak = item.get("peak_in_game")
+        result.append({
+            "rank": rank,
+            "app": app,
+            "players": players if type(players) is int and players >= 0 else None,
+            "peakPlayers": peak if type(peak) is int and peak >= 0 else None,
+        })
+    return sorted(result, key=lambda row: row["rank"])
+
 async def fetch_current_players(app_id: int) -> int | None:
     """지금 접속 중인 사람 수. 실패하면 None (차트 한 줄 때문에 전체가 실패하지 않게)."""
     try:
