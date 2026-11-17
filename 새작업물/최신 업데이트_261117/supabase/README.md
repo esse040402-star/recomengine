@@ -2,7 +2,7 @@
 
 ## Production migration history (verified 2026-11-17)
 
-The connected `recommengine` project has **13 applied migrations**. The active `supabase/migrations/` directory contains the same 13 production migration versions, plus one clearly identified local bootstrap snapshot (`20261117000000_rebuild_current_public_schema.sql`).
+The connected `recommengine` project has **13 applied migrations** in its production ledger. This incremental update folder contains the available production SQL files (`20261117020739` through `20261117020906`, plus the applied reconciliation `20261117050155`) and one clearly identified local bootstrap snapshot (`20261117000000_rebuild_current_public_schema.sql`). The first eight historical SQL bodies are not included in this update folder; their applied versions are verified from the live ledger, not reconstructed from missing files.
 
 Applied production versions:
 
@@ -20,7 +20,7 @@ Applied production versions:
 12. `20261117020906_revoke_public_access_and_secure_postgres_defaults`
 13. `20261117050155_reconcile_current_public_schema_snapshot`
 
-The first eight historical SQL bodies were not present in the supplied project archive. Their migration files are retained as no-op historical markers; they do not claim to reconstruct the original SQL. The current schema snapshot remains the reproducible bootstrap for a fresh local database.
+The first eight historical SQL bodies were not present in the supplied project archive and are not recreated here. Their applied status is based on the live Supabase migration ledger. Do not invent replacement SQL or treat missing historical bodies as pending migrations. The current schema snapshot remains the reproducible bootstrap for a fresh local database.
 
 ## Local-only bootstrap snapshot
 
