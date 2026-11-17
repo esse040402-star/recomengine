@@ -34,6 +34,13 @@ async def get_market(
     return await _guard(labels[section], market.get_market(section, game))
 
 
+
+@router.get("/rankings/steam", **docs.doc("steam_top100"))
+async def steam_top100():
+    """Steam 실시간 동시 접속자 기준 TOP 100 (프론트 연동은 다음 단계)."""
+    return await _guard("실시간 TOP 100 순위", market.get_concurrent_rankings())
+
+
 @router.get("/steam/reviews", **docs.doc("steam_reviews"))
 async def steam_reviews(
     game: str = Query(max_length=60, description="프론트 게임 id (예: elden)"),
