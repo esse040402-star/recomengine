@@ -20,6 +20,8 @@
 
 - [API 가중치용 분류 통합 — 공통 사전·전체 대응표](새작업물/API가중치_분류통합/)
 
+- [첫 7문항·개인취향 30문항 수정표](새작업물/설문_수정핵심/README.md)
+
 ## 배포 주소
 
 - [게임정보 API 테스트 화면](https://recomengine-game-api.onrender.com/)
